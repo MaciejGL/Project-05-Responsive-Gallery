@@ -4,9 +4,9 @@ const imagesCollection = [...document.getElementsByTagName('a')];
 let searchValue;
 
 function myFunction() {
-    searchInput.value = searchInput.value.toLowerCase();
-    searchValue = searchInput.value
-    // console.log(searchValue)
+    let searchInputValue = searchInput.value.toLowerCase()
+    searchValue = searchInputValue;
+
     for (let i = 0; i < imagesCollection.length; i++) {
         let attr = imagesCollection[i].getAttribute('data-title').toLowerCase();
         if (attr.includes(searchValue)) {
