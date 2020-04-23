@@ -1,4 +1,2 @@
 # Project 05 Responsive Gallery
-Gallery project with search option.
-
-HTML CSS JS
+ Project 05 Responsive Gallery
