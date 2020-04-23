@@ -56,5 +56,5 @@ input::placeholder {
 input:focus {
     outline: none;
     box-shadow: 0px 0px 0px 2px cadetblue;
-    border-radius: 5px;
+    border-radius: 5px
 }
