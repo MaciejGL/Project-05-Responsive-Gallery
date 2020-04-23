@@ -19,4 +19,4 @@ function myFunction() {
     }
 }
 
-searchInput.addEventListener("keyup", myFunction);
+searchInput.addEventListener("keyup", myFunction)
